@@ -1,0 +1,425 @@
+[
+  {
+    "id": "1",
+    "name": "Goa",
+    "visitMonths": ["January", "February", "November", "December"],
+    "tags": ["Solo", "Family", "Friends"],
+    "type": ["Beach"],
+    "description": "A popular holiday destination known for its sandy beaches, nightlife, and Portuguese architecture.",
+    "images": [
+      {
+        "id": "palolem-sea-beach",
+        "url": "/images/goa/palolem-sea-beach.jpeg",
+        "caption": "Beautiful Beach in Goa"
+      },
+      {
+        "id": "baga-sea-beach",
+        "url": "/images/goa/baga-sea-beach.jpeg",
+        "caption": "Baga Beach in Goa"
+      },
+      {
+        "id": "dudhsagar-falls",
+        "url": "/images/goa/dudhsagar-falls.jpeg",
+        "caption": "Amazing Water falls"
+      },
+      {
+        "id": "goa-jungle-adventure",
+        "url": "/images/goa/goa-jungle-adventure.jpeg",
+        "caption": "Adventures Jungle"
+      },
+      {
+        "id": "medallion-with-holy-trinity",
+        "url": "/images/goa/medallion-with-holy-trinity.jpeg",
+        "caption": "Medallion Church"
+      }
+    ],
+    "activities": [
+      "Beach Relaxing",
+      "Visiting Historical Places",
+      "Enjoying Nightlife",
+      "Water Sports",
+      "Trying Goan Cuisine"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Manali",
+    "visitMonths": ["March", "April", "May", "June"],
+    "tags": ["Solo", "Family", "Friends"],
+    "type": ["Mountain"],
+    "description": "A high-altitude Himalayan resort town in Indias northern Himachal Pradesh state, known for scenic beauty.",
+    "images": [
+      {
+        "id": "hidimba-devi-temple",
+        "url": "/images/manali/2.jpeg",
+        "caption": "Snow covered peaks in Manali"
+      },
+      {
+        "id": "beas-river",
+        "url": "/images/manali/1.jpeg",
+        "caption": "Snow covered peaks in Manali"
+      },
+      {
+        "id": "jogini-at-the-falls",
+        "url": "/images/manali/3.jpeg",
+        "caption": "Snow covered peaks in Manali"
+      },
+      {
+        "id": "manikaran",
+        "url": "/images/manali/4.jpeg",
+        "caption": "Snow covered peaks in Manali"
+      },
+      {
+        "id": "solang-valley-manali",
+        "url": "/images/manali/5.jpeg",
+        "caption": "Snow covered peaks in Manali"
+      }
+    ],
+    "activities": [
+      "Skiing",
+      "Hiking",
+      "Mountain Biking",
+      "Paragliding",
+      "Exploring Local Cuisine"
+    ]
+  },
+
+  {
+    "id": "3",
+    "name": "Varanasi",
+    "visitMonths": ["October", "November", "December", "January"],
+    "tags": ["Solo", "Family"],
+    "type": ["Spiritual", "Historical"],
+    "description": "An ancient city with deep spiritual roots, known for its temples, ghats, and the holy river Ganges.",
+    "images": [
+      {
+        "id": "ganges",
+        "url": "/images/varanasi/ganges.jpeg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "assi-ghat",
+        "url": "/images/varanasi/assi-ghat.jpeg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "banaras-ghats",
+        "url": "/images/varanasi/banaras-ghats.jpeg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "dasaswamedh-ghat",
+        "url": "/images/varanasi/dasaswamedh-ghat.jpeg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "sarnath",
+        "url": "/images/varanasi/sarnath.jpeg",
+        "caption": "A serene evening at Ganga ghats"
+      }
+    ],
+    "activities": [
+      "Boat Ride in Ganges",
+      "Visit Kashi Vishwanath Temple",
+      "Explore Sarnath",
+      "Experience Ganga Aarti",
+      "Try Local Street Food"
+    ]
+  }
+,
+  {
+    "id": "4",
+    "name": "Jaipur",
+    "visitMonths": ["October", "November", "December", "January", "February"],
+    "tags": ["Family", "Friends"],
+    "type": ["Historical"],
+    "description": "The Pink City of India known for its royal architecture and vibrant culture.",
+    "images": [
+      {
+        "id": "ganges",
+        "url": "/images/jaipur/1.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "assi-ghat",
+        "url": "/images/jaipur/2.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "banaras-ghats",
+        "url": "/images/jaipur/3.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "dasaswamedh-ghat",
+        "url": "/images/jaipur/4.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "sarnath",
+        "url": "/images/jaipur/5.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      }
+    ],
+    "activities": [
+      "Explore Amer Fort",
+      "Visit City Palace",
+      "Shopping at Johari Bazaar",
+      "Visit Jantar Mantar",
+      "Taste Traditional Rajasthani Cuisine"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Leh Ladakh",
+    "visitMonths": ["June", "July", "August", "September"],
+    "tags": ["Solo", "Friends"],
+    "type": ["Mountain"],
+    "description": "Known for its breath-taking landscapes and serene monasteries, Leh Ladakh is a haven for adventurers and peace seekers.",
+    "images": [
+      {
+        "id": "ganges",
+        "url": "/images/ladakh/ladakh1.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "assi-ghat",
+        "url": "/images/ladakh/ladakh2.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "banaras-ghats",
+        "url": "/images/ladakh/ladakh3.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "dasaswamedh-ghat",
+        "url": "/images/ladakh/ladakh4.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "sarnath",
+        "url": "/images/ladakh/ladakh5.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      }
+    ],
+    "activities": [
+      "Biking Trip",
+      "Visit Pangong Lake",
+      "Monastery Visit",
+      "Camel Safari in Nubra Valley",
+      "River Rafting"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Kerala",
+    "visitMonths": ["September", "October", "November", "December"],
+    "tags": ["Solo", "Family", "Friends"],
+    "type": ["Beach", "Mountain"],
+    "description": "Kerala, known as 'God's Own Country' is famous for its serene backwaters, lush greenery, and diverse wildlife.",
+    "images": [
+      {
+        "id": "ganges",
+        "url": "/images/kerala/1.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "assi-ghat",
+        "url": "/images/kerala/2.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "banaras-ghats",
+        "url": "/images/kerala/3.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "dasaswamedh-ghat",
+        "url": "/images/kerala/4.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "sarnath",
+        "url": "/images/kerala/5.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      }
+    ],
+    "activities": [
+      "Houseboat Stay",
+      "Wildlife Safari at Periyar",
+      "Visit Munnar Tea Gardens",
+      "Enjoy Kathakali and Kalaripayattu performances",
+      "Try Authentic Kerala Cuisine"
+    ]
+  },
+
+  {
+    "id": "7",
+    "name": "Agra",
+    "visitMonths": ["October", "November", "December", "January", "February"],
+    "tags": ["Family", "Friends"],
+    "type": ["Historical"],
+    "description": "Home to the magnificent Taj Mahal, Agra holds an important place in history as the former capital of the Mughal Empire.",
+    "images": [
+      {
+        "id": "ganges",
+        "url": "/images/agra/agra1.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "assi-ghat",
+        "url": "/images/agra/agra2.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "banaras-ghats",
+        "url": "/images/agra/agra3.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "dasaswamedh-ghat",
+        "url": "/images/agra/agra4.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "sarnath",
+        "url": "/images/agra/agra5.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      }
+    ],
+    "activities": [
+      "Visit Taj Mahal",
+      "Explore Agra Fort",
+      "Tour Fatehpur Sikri",
+      "Visit Itimad-ud-Daulah's Tomb",
+      "Try Mughlai Cuisine"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Pondicherry",
+    "visitMonths": ["November", "December", "January", "February"],
+    "tags": ["Solo", "Family", "Friends"],
+    "type": ["Beach", "Historical"],
+    "description": "A beautiful coastal city, Pondicherry is known for its French colonial architecture, serene beaches, and Auroville ashram.",
+    "images": [
+      {
+        "id": "ganges",
+        "url": "/images/pondicherry/1.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "assi-ghat",
+        "url": "/images/pondicherry/2.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "banaras-ghats",
+        "url": "/images/pondicherry/3.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "dasaswamedh-ghat",
+        "url": "/images/pondicherry/4.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "sarnath",
+        "url": "/images/pondicherry/5.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      }
+    ],
+    "activities": [
+      "Visit Auroville",
+      "Relax on Serenity Beach",
+      "Explore White Town",
+      "Visit Sri Aurobindo Ashram",
+      "Try French Cuisine"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Rishikesh",
+    "visitMonths": ["February", "March", "April", "May", "June"],
+    "tags": ["Solo", "Family"],
+    "type": ["Spiritual", "Mountain"],
+    "description": "Rishikesh, the 'Yoga Capital of the World', is known for its numerous ashrams, yoga schools, and spiritual ambience.",
+    "images": [
+      {
+        "id": "ganges",
+        "url": "/images/rishikesh/1.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "assi-ghat",
+        "url": "/images/rishikesh/2.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "banaras-ghats",
+        "url": "/images/rishikesh/3.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "dasaswamedh-ghat",
+        "url": "/images/rishikesh/4.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "sarnath",
+        "url": "/images/rishikesh/5.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      }
+    ],
+    "activities": [
+      "Attend Yoga Classes",
+      "Visit Ram Jhula and Laxman Jhula",
+      "Try River Rafting",
+      "Participate in Ganga Aarti",
+      "Explore the Local Cuisine"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Kolkata",
+    "visitMonths": ["October", "November", "December", "January"],
+    "tags": ["Solo", "Family", "Friends"],
+    "type": ["Historical"],
+    "description": "The cultural capital of India, Kolkata, is known for its colonial architecture, literature scene, and delectable Bengali sweets.",
+    "images": [
+      {
+        "id": "ganges",
+        "url": "/images/kolkata/1.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "assi-ghat",
+        "url": "/images/kolkata/2.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "banaras-ghats",
+        "url": "/images/kolkata/3.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "dasaswamedh-ghat",
+        "url": "/images/kolkata/4.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      },
+      {
+        "id": "sarnath",
+        "url": "/images/kolkata/5.jpg",
+        "caption": "A serene evening at Ganga ghats"
+      }
+    ],
+    "activities": [
+      "Visit Victoria Memorial",
+      "Explore Howrah Bridge",
+      "Take a ride in Tram",
+      "Visit Indian Museum",
+      "Try Bengali Sweets"
+    ]
+  }
+]

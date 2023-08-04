@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import './Login.css'; // Create a separate CSS file for styling
-
+import { useNavigate } from 'react-router-dom';
+import { TravelContext } from '../../Context/TravelContext';
+import { useContext } from 'react';
 const Login = () => {
+  const navigate = useNavigate();
+  const { setIsAuthenticated } = useContext(TravelContext);
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
     username: '',
@@ -22,9 +27,38 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle login logic here, e.g., sending form data to the server
-    console.log(formData);
+
+    // Send POST request to server
+    axios.post('http://localhost:3001/api/login', formData)
+      .then(response => {
+        const token = response.data.token;
+        // Store the token in localStorage
+        localStorage.setItem('jwtToken', token);
+        setIsAuthenticated(true)
+        navigate("/travel")
+        // Redirect to home or dashboard page
+      })
+      .catch(error => {
+        // Handle error. Show error message to user
+        if (error.response) {
+            // The request was made and the server responded with a status code
+            // that falls out of the range of 2xx
+            console.log(error.response.data.error);
+        } else if (error.request) {
+            // The request was made but no response was received
+            console.log(error.request);
+        } else {
+            // Something happened in setting up the request that triggered an Error
+            console.log('Error', error.message);
+        }
+        alert("Incorrect Username or Password")
+        navigate("/")
+    });
   };
+
+  useEffect(()=>{
+    localStorage.removeItem("jwtToken");
+  },[])
 
   return (
     <div className="login-container">
