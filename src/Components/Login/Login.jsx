@@ -29,7 +29,7 @@ const Login = () => {
     e.preventDefault();
 
     // Send POST request to server
-    axios.post('http://localhost:3001/api/login', formData)
+    axios.post('http://13.49.219.0:3001/api/login', formData)
       .then(response => {
         const token = response.data.token;
         // Store the token in localStorage

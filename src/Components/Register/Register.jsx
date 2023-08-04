@@ -34,9 +34,11 @@ const Register = () => {
     }
     
     // Send POST request to server
-    axios.post('http://localhost:3001/api/register', {
+    axios.post('http://13.49.219.0:3001/api/register', {
       username: formData.username,
-      password: formData.password
+      password: formData.password,
+      firstName: formData.firstName,
+      lastName : formData.lastName
     })
     .then(response => {
       alert('User registered successfully');
